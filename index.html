@@ -16,28 +16,80 @@
 
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-    Score Rules You Picked The House Picked You Win You Lose Play Again
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./dist/output.css">
   </head>
   <body>
-    <h1 class="text-3xl text-header">Rock Paper Scissors</h1>
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+    <main class="flex flex-col items-center justify-between">
+      <header class="flex justify-between items-center">
+        <img src="./images/logo.svg" alt="logo" class="h-16 lg:h-24" />
+        <div class="score flex flex-col items-center justify-around">
+          <p class="score__title">SCORE</p>
+          <p class="score__number lg:text-7xl -mt-2">12</p>
+        </div>
+      </header>
+      <!--  Main Game  -->
+      <section class="symbols relative grid grid-cols-7">
+        <img class="symbols__background row-start-2 col-start-2 row-span-5 col-span-5 absolute" src="./images/bg-triangle.svg" alt="background triangle" />
+        <div class="symbol symbol__paper col-start-1 col-span-3 row-span-3">
+          <div class="white-background flex justify-center items-center">
+            <img src="./images/icon-paper.svg" alt="paper logo" />
+          </div>
+        </div>
+        <div class="symbol symbol__scissors col-start-5 col-span-3 row-span-3">
+          <div class="white-background flex justify-center items-center">
+            <img src="./images/icon-scissors.svg" alt="scissors logo" />
+          </div>
+        </div>
+        <div class="symbol symbol__rock col-start-3 row-start-5 col-span-3 row-span-3">
+          <div class="white-background flex justify-center items-center">
+            <img src="./images/icon-rock.svg" alt="rock logo" />
+          </div>
+        </div>
+      </section>
+      <!--  Results - Hidden Until Gameplay  -->
+      <section class="results flex justify-evenly grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-1 hidden">
+        <div class="results__user flex flex-col items-center justify-center lg:flex-col-reverse">
+          <div class="results__user__symbol symbol col-start-3 row-start-4 col-span-3 row-span-3">
+            <div class="white-background flex justify-center items-center">
+              <img src="" alt="user selection" id="results__user__image" />
+            </div>
+          </div>
+          <p class="lg:mb-10 text">YOU PICKED</P>
+        </div>
+        <div class="results__house flex flex-col items-center justify-center lg:flex-col-reverse md:col-start-3">
+          <div class="results__house__symbol symbol symbol__blank col-start-3 row-start-4 col-span-3 row-span-3">
+            <div class="white-background flex justify-center items-center">
+              <img src="" alt="" id="results__house__image" />
+            </div>
+          </div>
+          <p class="lg:mb-10">THE HOUSE PICKED</P>
+        </div>
+        <div class="match-results col-span-2 flex flex-col justify-center items-center md:col-span-1 md:col-start-2 md:row-start-1">
+          <p class="match-results__display">YOU WIN</p>
+          <button class='play__again'>PLAY AGAIN</button>
+        </div>
+      </section>
+      <section class="rules">
+        <button class="mr-6 reset__button">RESET</button>
+        <button class="rules__button">RULES</button>
+        <div class="rules__overlay flex flex-col items-center justify-evenly hidden">
+          <p>RULES</p>
+          <img src="./images/image-rules.svg" alt="rules" />
+          <div>
+            <img src="./images/icon-close.svg" alt="close" class="rules__close" />
+      </section>
+    </main>
 
-    <script src="dist/script.js"></script>
+    <script src="./dist/script.js"></script>
   </body>
 </html>
