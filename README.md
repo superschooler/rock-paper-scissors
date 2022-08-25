@@ -1,22 +1,21 @@
 # Frontend Mentor - Rock, Paper, Scissors solution
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Rock, Paper, Scissors solution](#frontend-mentor---rock-paper-scissors-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
+  - [Author](#author-1)
 
 ## Overview
 
@@ -31,20 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/superschooler/rock-paper-scissors](https://github.com/superschooler/rock-paper-scissors)
+- Live Site URL: [https://superschooler.github.io/rock-paper-scissors/](https://superschooler.github.io/rock-paper-scissors/)
 
 ## My process
 
@@ -55,59 +46,27 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Library
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project took a full day to complete once I got going, but roughly a month from the time I started it to actually getting to work and knocking it out. I had bounced around between projects and worked on freeCodeCamp and The Odin Project over the last month, and finally felt comfortable enough to tackle it. The DOM had always stumped me a bit when I got to it, largely because freeCodeCamp hardly touches on it. The Odin Project has proven to be an invaluable resource once getting past the basics, and I'd recommend it to anyone who's past the tinkering phase and ready to actually start learning and building projects.
 
-To see how you can add code snippets, see below:
+I surprised myself by not having to Google all that much with this project - I'm comfortable working with HTML, CSS, TailwindCSS, and JavaScript, and only needed to Google a few concepts, like inset shadows.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I'm still figuring out where to draw the line between using TailwindCSS and vanilla CSS. I think Tailwind is great for formatting quickly and making media queries easy, but it can get a bit more complicated when it comes to custom colors or values outside of its presets. I know it's customizable, but is a small project like this worth going through the hassle of customizing it?
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I'm excited to continue building projects that use more and more JavaScript and eventually getting into the back end. I plan to continue with The Odin Project's JavaScript course and when it asks for projects similar to what's offered on Frontend Mentor I'll complete the challenges there.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## Author
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Brian Schooler](https://www.brianschooler.com)
+- Frontend Mentor - [@superschooler](https://www.frontendmentor.io/profile/superschooler)
+- Twitter - [@superschooler](https://www.twitter.com/yourusername)- Website - [Brian Schooler](https://www.brianschooler.com)
+- Frontend Mentor - [@superschooler](https://www.frontendmentor.io/profile/superschooler)
+- Twitter - [@superschooler](https://twitter.com/SuperSchooler)
+- GitHub - [@superschooler](https://github.com/superschooler)

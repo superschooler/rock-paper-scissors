@@ -849,8 +849,8 @@ header img {
 .results div .symbol {
   width: 25vw;
   height: 25vw;
-  max-width: 15rem;
-  max-height: 15rem;
+  max-width: 8.5rem;
+  max-height: 8.5rem;
 }
 
 .results div p {
@@ -863,7 +863,7 @@ header img {
 
 .match-results p {
   color: var(--gray);
-  font-size: 3rem !important;
+  font-size: 2rem;
 }
 
 button {
@@ -875,7 +875,7 @@ button {
 .match-results button {
   background-color: var(--gray);
   color: var(--dark-text);
-  width: 70%;
+  width: 80%;
   margin-top: 0.5rem;
 }
 
